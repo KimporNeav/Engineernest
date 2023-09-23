@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+ 
+    />
+    <style>
+      body {
+        font-family: "Open Sans", sans-serif;
+        background-color: #e7f0ea;
+        padding: 20px;
+      }
+      .textColor {
+        color: #052311;
+      }
+      .primaryColor {
+        color: #0e6431;
+      }
+      .headline {
+        font-size: 1.5rem;
+        font-weight: 600;
+      }
+      .titleSize {
+        font-size: 1rem;
+        font-weight: 400;
+        color: #052311;
+      }
+      .textSize {
+        font-size: 0.975rem;
+        color: #052311;
+      }
+      .importantText {
+        font-weight: 700;
+        color: #0e6431;
+      }
+    </style>
+  </head>
+  
+  <body>
+    <h1 class="headline" >
+      Dear Hiring Team,
+    </h1>
+
+    <p class="textSize" style="padding-top: 20px; padding-bottom: 20px">
+      A new job seeker has expressed interested in finding a job through our plateform.
+    </p>
+   <ul>
+
+    <li>
+      <p>User's email: <span class="importantText"><%=email%></span></p>
+    </li>
+    <li>
+      <p>Skill: <span class="importantText"><%=skill%></span></p>
+    </li>
+   </ul>
+    <p class="textSize">We recommended following up to provide them with relevant job oppotunities.</p>
+    <div style="margin-top: 20px;">
+      <p class="textSize">Best regards</p>
+      <p class="textSize" style="padding-bottom: 10px">Your Automated System</p>
+    </div>
+  
+  </body>
+</html>
